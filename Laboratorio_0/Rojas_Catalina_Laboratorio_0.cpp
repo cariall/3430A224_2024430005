@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 int par_o_no(int numero) {
 	if (numero%2 == 1) {
