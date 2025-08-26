@@ -1,10 +1,11 @@
 #include <iostream>
+using namespace std;
 
 int par_o_no(int numero) {
 	if (numero%2 == 1) {
-		std::cout<<"El número " << numero << " es impar\n";
+		cout<<"El número " << numero << " es impar\n";
 	} else {
-		std::cout<<"El número " << numero << " es par\n";
+		cout<<"El número " << numero << " es par\n";
 	}
 	return numero;
 }
@@ -14,21 +15,26 @@ void longitud(char texto[]) {
 	for (int i=0; texto[i] != '\0'; i++) {
 	contador++;
 }
-	std::cout<<"La longitud de "<<texto<<" es de "<<contador<<" caracteres \n";
+	cout<<"La longitud de "<<texto<<" es de "<<contador<<" caracteres \n";
 }
 
 int main() {
 	int numero;
 	char texto[100];	
-
-	std::cout<<"Ingrese un número: \n";
-	std::cin>>numero;
-	std::cout<<"Ingrese una palabra: \n";
-	std::cin>>texto;
+	char texto2[10] = "carozzi";
+	cout<<"Ingrese un número: \n";
+	cin>>numero;
+	cout<<"Ingrese una palabra: \n";
+	cin>>texto;
 
 	par_o_no(numero);
-	longitud(texto);
 
+	for (int i=1; i<11; i++) {
+		par_o_no(i);
+	}
+
+	longitud(texto);
+	longitud(texto2);
 	return 0;
 }
 
