@@ -9,12 +9,26 @@ int par_o_no(int numero) {
 	return numero;
 }
 
+void longitud(char texto[]) {
+	int contador=0;
+	for (int i=0; texto[i] != '\0'; i++) {
+	contador++;
+}
+	std::cout<<"La longitud de "<<texto<<" es de "<<contador<<" caracteres \n";
+}
+
 int main() {
 	int numero;
+	char texto[100];	
+
 	std::cout<<"Ingrese un número: \n";
 	std::cin>>numero;
+	std::cout<<"Ingrese una palabra: \n";
+	std::cin>>texto;
+
 	par_o_no(numero);
-	std::cout<<"El número que ingresaste es "<<numero<<"\n";
+	longitud(texto);
+
 	return 0;
 }
 
