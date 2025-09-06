@@ -101,6 +101,30 @@ void menu() {
     cout << "Seleccione una opción: ";
 }
 
+void cargarDesdeArchivo(PACIENTE **head, const char *nombreArchivo) {
+    FILE *archivo = fopen(nombreArchivo, "r");
+    if (!archivo) {
+        cout << "Error al abrir el archivo " << nombreArchivo << endl;
+        return;
+    }
+
+    char nombre[20];
+    int edad;
+    float peso, altura;
+
+    while (fscanf(archivo, "%19[^,],%d,%f,%f\n", nombre, &edad, &peso, &altura) == 4) {
+        PACIENTE *nuevo = new PACIENTE;
+        strcpy(nuevo->nombre, nombre);
+        nuevo->edad = edad;
+        nuevo->peso = peso;
+        nuevo->altura = altura;
+        agregar(head, nuevo);
+    }
+
+    fclose(archivo);
+    cout << "\nPacientes cargados desde archivo con éxito.\n";
+}
+
 int main() {
 	PACIENTE *head = NULL; //head guarda un espacio vacío
 	PACIENTE *paciente_1 = new PACIENTE; //en espacio de paciente_1 se guarda estructura paciente con ciertos datos
@@ -147,6 +171,8 @@ int main() {
 			cout << "\nPaciente "<<paciente_3->nombre<<" eliminado con éxito.\n";
 		} else if (opcion == 4) {
 			promedios(head, &promedioPeso, &promedioEdad);
+		} else if (opcion == 5) {
+			cargarDesdeArchivo(&head, "pacientes.csv");
 		}
 	}	while (opcion != 6);
 
