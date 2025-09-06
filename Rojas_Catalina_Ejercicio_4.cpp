@@ -92,11 +92,11 @@ void promedios(PACIENTE *head, float *prom_peso, float *prom_edad) {
 
 void menu() {
     cout << "\n+----Menú-----+\n";
-    cout << "1. Mostrar todos los pacientes\n";
-    cout << "2. Agregar paciente\n";
-    cout << "3. Eliminar paciente\n";
-    cout << "4. Mostrar promedios\n";
-    cout << "5. Cargar pacientes desde archivo plano\n";
+	cout << "1. Cargar más pacientes desde csv\n";
+    cout << "2. Mostrar todos los pacientes\n";
+    cout << "3. Agregar paciente\n";
+    cout << "4. Eliminar paciente\n";
+    cout << "5. Mostrar promedios\n";
     cout << "6. Salir\n";
     cout << "Seleccione una opción: ";
 }
@@ -158,8 +158,10 @@ int main() {
 		cin.ignore();
 
 		if (opcion == 1) {
-			imprimir_dinamico(head);
+			cargarDesdeArchivo(&head, "pacientes.csv"); //adjunté un csv llamado pacientes.csv, si quisiera agregar otro, por favor cambiar nombre
         } else if (opcion == 2) {
+			imprimir_dinamico(head);
+		} else if (opcion == 3) {
 			PACIENTE *nuevo = new PACIENTE;
 			strcpy(nuevo->nombre, "Juan");
             nuevo->edad = 20;
@@ -167,13 +169,11 @@ int main() {
             nuevo->altura = 1.70;
             agregar(&head, nuevo);
             cout << "\nPaciente "<< nuevo->nombre << " agregado con éxito.\n";
-		} else if (opcion == 3) {
+		} else if (opcion == 4) {
 			eliminar(&head, paciente_3);
 			cout << "\nPaciente "<<paciente_3->nombre<<" eliminado con éxito.\n";
-		} else if (opcion == 4) {
-			promedios(head, &promedioPeso, &promedioEdad);
 		} else if (opcion == 5) {
-			cargarDesdeArchivo(&head, "pacientes.csv"); //adjunté un csv llamado pacientes.csv, si quisiera agregar otro, por favor cambiar nombre
+			promedios(head, &promedioPeso, &promedioEdad);
 		}
 	}	while (opcion != 6);
 
