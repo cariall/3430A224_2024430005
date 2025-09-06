@@ -102,8 +102,8 @@ void menu() {
 }
 
 void cargarDesdeArchivo(PACIENTE **head, const char *nombreArchivo) {
-    FILE *archivo = fopen(nombreArchivo, "r");
-    if (!archivo) {
+    FILE *archivo = fopen(nombreArchivo, "r"); //FILE representa un archivo en c y "r" significa lectura. fopen lo abre, necesita de nombre y modo.
+    if (!archivo) { //si puntero es nulo, fopen no pudo abrir el archivo
         cout << "Error al abrir el archivo " << nombreArchivo << endl;
         return;
     }
@@ -112,8 +112,9 @@ void cargarDesdeArchivo(PACIENTE **head, const char *nombreArchivo) {
     int edad;
     float peso, altura;
 
-    while (fscanf(archivo, "%19[^,],%d,%f,%f\n", nombre, &edad, &peso, &altura) == 4) {
-        PACIENTE *nuevo = new PACIENTE;
+    while (fscanf(archivo, "%19[^,],%d,%f,%f\n", nombre, &edad, &peso, &altura) == 4) { //fscanf lee datos desde un archivo y %19[^,] lee como string hasta una coma.
+        // % indica formato de d, f, etc. 19=caracteres a leer, []=indica caracteres a leer, ^=negación, ","=indica que lea mientras no haya coma.
+		PACIENTE *nuevo = new PACIENTE;
         strcpy(nuevo->nombre, nombre);
         nuevo->edad = edad;
         nuevo->peso = peso;
@@ -121,7 +122,7 @@ void cargarDesdeArchivo(PACIENTE **head, const char *nombreArchivo) {
         agregar(head, nuevo);
     }
 
-    fclose(archivo);
+    fclose(archivo); //cierra archivo
     cout << "\nPacientes cargados desde archivo con éxito.\n";
 }
 
@@ -172,7 +173,7 @@ int main() {
 		} else if (opcion == 4) {
 			promedios(head, &promedioPeso, &promedioEdad);
 		} else if (opcion == 5) {
-			cargarDesdeArchivo(&head, "pacientes.csv");
+			cargarDesdeArchivo(&head, "pacientes.csv"); //adjunté un csv llamado pacientes.csv, si quisiera agregar otro, por favor cambiar nombre
 		}
 	}	while (opcion != 6);
 
