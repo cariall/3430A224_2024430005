@@ -1,4 +1,4 @@
-Descripción del funcionamiento
+*Descripción del funcionamiento*
 Este código simula un puerto seco con un sistema de pilas de 
 contenedores. La distribución inicial la determina el usuario, 
 la cual puede ser tanto manual como automática.
@@ -10,11 +10,11 @@ retirar contenedores específicos que siguen el método LIFO,
 primero sacando aquellos que están al último hasta llegar al que
 se solicitó.
 
-Requisitos
+*Requisitos*
 Compilador de C++
-Bibliotecas estándar (<iostream>, <cstdlib>)
+Bibliotecas estándar (iostream, cstdlib)
 
-Uso del programa:
+*Uso del programa:*
 Compilación: g++ Rojas_Catalina_L2_E2.cpp -o programa
 Ejecución: ./programa n m
 Siendo n y m enteros que determina el usuario, pues estos 
@@ -22,7 +22,7 @@ corresponden a la altura máxima de cada pila como al número de
 pilas totales, respectivamente.
 Ejemplo de ejecución: ./programa 4 4
 
-Consideraciones especiales
+*Consideraciones especiales*
 Asegurarse de ingresar números válidos, tanto al agregar contenedores
 en pilas(0 al 3), como al ingresar los parámetros en comando(n>=0, m>=0)
 y al retirar los contenedores(verificar en estado que sí existan o que 
