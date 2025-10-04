@@ -118,25 +118,13 @@ void importar_desde_txt(Nodo*& cola, const string& nombreArchivo) {
         return;
     }
 
-    string linea;
-    while (getline(infile, linea)) {
-        if (linea.empty()) continue; // saltar líneas vacías
-
-        stringstream ss(linea);
-        string resn, chain, resid;
-
-        getline(ss, resn, ';');   // primer espacio hasta ; → resn
-        getline(ss, chain, ';');  // segundo espacio entre ; y ; -> cadena
-        getline(ss, resid, ';');  // tercer espacio post ; → resid
-
-        resid.erase(0, resid.find_first_not_of(" \t"));
-        resid.erase(resid.find_last_not_of(" \t")+1);
-
+    string resn, resid;
+    while (infile >> resn >> resid) { // lee palabra + número separados por espacio
         insertar_cola(cola, resn, resid);
     }
 
     infile.close();
-    cout << "===Lista importada desde " << nombreArchivo << "===\n";
+    cout << "=== Lista importada desde " << nombreArchivo << " ===\n";
 }    
 
 void exportar_dot(Nodo* cola, const string& nombreDot) {
