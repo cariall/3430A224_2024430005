@@ -92,20 +92,13 @@ bool modificar_resn(Nodo* &cola, string resid, string mutar) {
     if (actual == nullptr) return false;
 
     while (mutar != actual->resid) {
-        cout << "cola" << actual->resid << endl;
-        cout << "residuo" << actual->resid << endl;
         actual = actual->siguiente;
-        cout << "siguiente" << actual->resn << endl;
-        cout << "siguiente residuo" << actual->resid << endl;
     }
     
     if (mutar == actual->resid) {
-        cout << "cola" << actual->resn << endl;
         cout << "ingrese nuevo resn: \n";
         cin >> nuevo_resn;
         actual->resn = nuevo_resn;
-        cout << "cola-resn" << actual->resn << "nuevo resn" << nuevo_resn << endl;
-        cout << "nuevo resn" << actual->resn << endl;
         return true;
     }
     return false;
