@@ -75,90 +75,71 @@ bool eliminacion_ABB(Node* &apnodo, int info) {
             
             apnodo->info = hijo_izquierdo->info; //ahora nodo tiene info 
             
-            if (progenitor == aux) { //si progenitor es el original (está directo a su hijo)
-                progenitor->left = hijo_izquierdo->left; //su hijo será el izq del hijo
+            if (progenitor == aux) { //si progenitor es el que queremos eliminar
+                progenitor->left = hijo_izquierdo->left; //info de su izq baja a la izq de su hijo
             } else { //si hijo no está directamente abajo de progenitor
                 progenitor->right = hijo_izquierdo->left; //su hijo derecho queda como el izq del hijo
             
             } 
             
             delete hijo_izquierdo;
-            // cout << "Nodo eliminado correctamente\n";
             return true; 
             }
 
             delete aux;
-            // cout << "Nodo eliminado correctamente\n";
             return true;
         }
         return false;
     }
 
-bool busqueda_ABB(Node* &apnodo, int info) {
+bool buscaModifica_ABB(Node* &apnodo, int info) {
     if (apnodo == nullptr) {
         cout << "Número no se encuentra en el árbol\n";
         return false;
     }
 
     if (info < apnodo->info) {
-        //cout << "info: " << info << " apnodo->info: " << apnodo->info << endl;
         if (apnodo->left == nullptr) {
             cout << "Número no se encuentra en el árbol\n";
             return false;
         } else {
-            busqueda_ABB(apnodo->left, info);
+            buscaModifica_ABB(apnodo->left, info);
         }
     } else if (info > apnodo->info) {
-        //cout << "info: " << info << " apnodo->info: " << apnodo->info << endl;
         if (apnodo->right == nullptr) {
             cout << "Número no se encuentra en el árbol\n";
             return false;
         } else {
-            busqueda_ABB(apnodo->right, info);
+            buscaModifica_ABB(apnodo->right, info);
             return false;
         }
     } else if (info == apnodo->info) { 
-        //cout << "info: "<< info << " nodo: " << apnodo->info << endl; 
-        cout << "Número encontrado.\n"; 
+        cout << "Número encontrado.\n";
         int nuevoValor;
         cout << "Ingrese nuevo valor: ";
         cin >> nuevoValor;
-        eliminacion_ABB(apnodo, info); // eliminar el viejo
-        insercion_ABB(apnodo, nuevoValor); // insertar el nuevo
-        //apnodo->info = nuevoValor;
-        cout << "Número modificado.\n";
-        //cout << "final apnodo->info: " << apnodo->info;
+        eliminacion_ABB(apnodo, info); // elimina el viejo
+        insercion_ABB(apnodo, nuevoValor); // inserta el nuevo
+        cout << "Número modificado.\n"; 
         return true;
     }
     return false;
 }
 
-void crea_arbol(Node* &apnodo) {
+void crea_arbol(Node* &apnodo, int valor) {
     if (apnodo == nullptr) { //si nodo está vacío
-        int valor;
-        cout << "Ingrese valor para el nodo: ";
-        cin >> valor; //se le agrega valor
         apnodo = createNode(valor); //apnodo será nodo nuevo
+        return; //lo detengo, si continúa indica que ya existe porque se compara consigo mismo
     }
 
-    char resp;
-
-    cout << "¿Existe nodo por izquierda de " << apnodo->info << "? (s/n): ";
-    cin >> resp;
-    if (resp == 's' || resp == 'S') {
-        apnodo->left = nullptr; // inicializar
-        crea_arbol(apnodo->left); // llamada recursiva
-    } else {
-        apnodo->left = nullptr;
-    }
-
-    cout << "¿Existe nodo por derecha de " << apnodo->info << "? (s/n): ";
-    cin >> resp;
-    if (resp == 's' || resp == 'S') {
-        apnodo->right = nullptr; //creamos espacio vacío para
-        crea_arbol(apnodo->right); // ponerle la info
-    } else {
-        apnodo->right = nullptr; //si no, queda vacío
+    if (apnodo != nullptr) {
+        if (valor < apnodo->info) { //si es menor, se crea nodo a su izq
+            crea_arbol(apnodo->left, valor);
+        } else if (valor > apnodo->info) { //si es mayor, a su der
+            crea_arbol(apnodo->right, valor);
+        } else { //si es igual, no se crea nodo
+            cout << "Ya existe el número en el árbol.\n";
+        }
     }
 }
 
@@ -232,7 +213,7 @@ void visualizar(Node* root) {
 
     system("dot -Tpng arbol.dot -o arbol.png"); //crea imagen png
 
-    system("eog arbol.png"); //abre imagen. linux: eog
+    system("eog arbol.png"); //abre imagen
 }
 
 void menu() {
@@ -248,9 +229,18 @@ void menu() {
 int main() {
     Node* root = nullptr; //nodo raíz está vacío
     int opcion;
+    int n;
+    int valor;
 
-    cout << "\nConstrucción del árbol binario:\n";
-    crea_arbol(root); //ahora
+    cout << "===Construcción de ABB===\n";
+    cout << "¿Cuántos números desea ingresar?: ";
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        cout << "Ingrese número " << i+1 << ": ";
+        cin >> valor;
+        crea_arbol(root, valor);
+    }
 
     do {
         menu();
@@ -293,7 +283,7 @@ int main() {
                     cout << "Ingrese número a buscar: ";
                     cin >> aBuscar;
                     cin.ignore();
-                    busqueda_ABB(root, aBuscar);
+                    buscaModifica_ABB(root, aBuscar);
                 }
                 break;
             case 4:
