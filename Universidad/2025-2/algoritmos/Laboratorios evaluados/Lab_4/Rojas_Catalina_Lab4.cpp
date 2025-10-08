@@ -43,43 +43,6 @@ bool insercion_ABB(Node* &apnodo, int info) {
     return true;
 }
 
-bool busqueda_ABB(Node* &apnodo, int info) {
-    if (apnodo == nullptr) {
-        cout << "Número no se encuentra en el árbol\n";
-        return false;
-    }
-
-    if (info < apnodo->info) {
-        //cout << "info: " << info << " apnodo->info: " << apnodo->info << endl;
-        if (apnodo->left == nullptr) {
-            cout << "Número no se encuentra en el árbol\n";
-            return false;
-        } else {
-            busqueda_ABB(apnodo->left, info);
-        }
-    } else if (info > apnodo->info) {
-        //cout << "info: " << info << " apnodo->info: " << apnodo->info << endl;
-        if (apnodo->right == nullptr) {
-            cout << "Número no se encuentra en el árbol\n";
-            return false;
-        } else {
-            busqueda_ABB(apnodo->right, info);
-            return false;
-        }
-    } else if (info == apnodo->info) { 
-        //cout << "info: "<< info << " nodo: " << apnodo->info << endl; 
-        cout << "Número encontrado.\n"; 
-        int nuevoValor;
-        cout << "Ingrese nuevo valor: ";
-        cin >> nuevoValor;
-        apnodo->info = nuevoValor;
-        cout << "Número modificado.\n";
-        //cout << "final apnodo->info: " << apnodo->info;
-        return true;
-    }
-    return false;
-}
-
 bool eliminacion_ABB(Node* &apnodo, int info) {
     if (apnodo == nullptr) { 
         cout << "El nodo no se encuentra en el árbol\n";
@@ -130,6 +93,45 @@ bool eliminacion_ABB(Node* &apnodo, int info) {
         }
         return false;
     }
+
+bool busqueda_ABB(Node* &apnodo, int info) {
+    if (apnodo == nullptr) {
+        cout << "Número no se encuentra en el árbol\n";
+        return false;
+    }
+
+    if (info < apnodo->info) {
+        //cout << "info: " << info << " apnodo->info: " << apnodo->info << endl;
+        if (apnodo->left == nullptr) {
+            cout << "Número no se encuentra en el árbol\n";
+            return false;
+        } else {
+            busqueda_ABB(apnodo->left, info);
+        }
+    } else if (info > apnodo->info) {
+        //cout << "info: " << info << " apnodo->info: " << apnodo->info << endl;
+        if (apnodo->right == nullptr) {
+            cout << "Número no se encuentra en el árbol\n";
+            return false;
+        } else {
+            busqueda_ABB(apnodo->right, info);
+            return false;
+        }
+    } else if (info == apnodo->info) { 
+        //cout << "info: "<< info << " nodo: " << apnodo->info << endl; 
+        cout << "Número encontrado.\n"; 
+        int nuevoValor;
+        cout << "Ingrese nuevo valor: ";
+        cin >> nuevoValor;
+        eliminacion_ABB(apnodo, info); // eliminar el viejo
+        insercion_ABB(apnodo, nuevoValor); // insertar el nuevo
+        //apnodo->info = nuevoValor;
+        cout << "Número modificado.\n";
+        //cout << "final apnodo->info: " << apnodo->info;
+        return true;
+    }
+    return false;
+}
 
 void crea_arbol(Node* &apnodo) {
     if (apnodo == nullptr) { //si nodo está vacío
