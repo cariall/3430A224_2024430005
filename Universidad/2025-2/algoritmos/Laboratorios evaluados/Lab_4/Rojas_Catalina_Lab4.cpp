@@ -50,7 +50,7 @@ bool busqueda_ABB(Node* &apnodo, int info) {
     }
 
     if (info < apnodo->info) {
-        cout << "info: " << info << " apnodo->info: " << apnodo->info << endl;
+        //cout << "info: " << info << " apnodo->info: " << apnodo->info << endl;
         if (apnodo->left == nullptr) {
             cout << "Número no se encuentra en el árbol\n";
             return false;
@@ -58,7 +58,7 @@ bool busqueda_ABB(Node* &apnodo, int info) {
             busqueda_ABB(apnodo->left, info);
         }
     } else if (info > apnodo->info) {
-        cout << "info: " << info << " apnodo->info: " << apnodo->info << endl;
+        //cout << "info: " << info << " apnodo->info: " << apnodo->info << endl;
         if (apnodo->right == nullptr) {
             cout << "Número no se encuentra en el árbol\n";
             return false;
@@ -67,13 +67,14 @@ bool busqueda_ABB(Node* &apnodo, int info) {
             return false;
         }
     } else if (info == apnodo->info) { 
-        cout << "info: "<< info << " nodo: " << apnodo->info << endl; 
-        cout << "Número encontrado\n"; 
+        //cout << "info: "<< info << " nodo: " << apnodo->info << endl; 
+        cout << "Número encontrado.\n"; 
         int nuevoValor;
         cout << "Ingrese nuevo valor: ";
         cin >> nuevoValor;
         apnodo->info = nuevoValor;
-        cout << "final apnodo->info: " << apnodo->info;
+        cout << "Número modificado.\n";
+        //cout << "final apnodo->info: " << apnodo->info;
         return true;
     }
     return false;
@@ -234,18 +235,20 @@ void visualizar(Node* root) {
 
 void menu() {
     cout << "\n=== Menú creación árbol binario===\n";
-    cout << "1. Crear árbol binario\n"; 
-    cout << "2. Insertar número\n";
-    cout << "3. Eliminar número buscado\n";
-    cout << "4. Modificar un elemento buscado\n";
-    cout << "5. Mostrar contenido en pre/in/pos orden\n";
-    cout << "6. Generar el grafo\n";
-    cout << "7. Salir\n";
+    cout << "1. Insertar número\n";
+    cout << "2. Eliminar número buscado\n";
+    cout << "3. Modificar un elemento buscado\n";
+    cout << "4. Mostrar contenido en pre/in/pos orden\n";
+    cout << "5. Generar el grafo\n";
+    cout << "6. Salir\n";
 }
 
 int main() {
     Node* root = nullptr; //nodo raíz está vacío
     int opcion;
+
+    cout << "\nConstrucción del árbol binario:\n";
+    crea_arbol(root); //ahora
 
     do {
         menu();
@@ -255,10 +258,6 @@ int main() {
 
         switch (opcion) {
             case 1:
-                cout << "Construcción del árbol binario:\n";
-                crea_arbol(root); //ahora 
-                break;
-            case 2:
                 if (root == nullptr) {
                     cout << "Árbol vacío\n";
                 } else {
@@ -271,7 +270,7 @@ int main() {
                     }
                 }
                 break;
-            case 3:
+            case 2:
                 if (root == nullptr) {
                     cout << "Árbol está vacío.\n";
                 } else {
@@ -284,7 +283,7 @@ int main() {
                     }
                     } 
                 break;
-            case 4:
+            case 3:
                 int aBuscar;
                 if (root == nullptr) {
                     cout << "Árbol vacío\n";
@@ -295,7 +294,7 @@ int main() {
                     busqueda_ABB(root, aBuscar);
                 }
                 break;
-            case 5:
+            case 4:
                 cout << "\nRecorrido en preorden: ";
                 printPreOrder(root);
                 cout << "\nRecorrido en inorden: ";
@@ -304,7 +303,7 @@ int main() {
                 printPosOrder(root);
                 cout << endl;
                 break;
-            case 6:
+            case 5:
                 if (root == nullptr) {
                     cout << "Árbol vacío.\n";
                 } else {
@@ -313,6 +312,6 @@ int main() {
             default:
                 break;
             }
-        } while (opcion != 7);
+        } while (opcion != 6);
     return 0;
 }
