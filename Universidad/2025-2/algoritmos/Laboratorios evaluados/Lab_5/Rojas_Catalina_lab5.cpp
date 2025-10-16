@@ -32,13 +32,13 @@ void Restructura1(Node** nodocabeza, bool* BO) {
     if (*BO) {
         switch (nodo->FE) {
             case -1: 
-                nodo->FE = 0;
+                nodo->FE = 0; //si es -1 es porque hay diferencia de 1 unidad.
                 break;
             case 0:
-                nodo->FE = 1;
+                nodo->FE = 1; //si es cero, lo mismo.
                 *BO = false;
                 break;
-            case 1:
+            case 1: //si es 1, hay desbalance a derecha. Hay más en derecha que en izq.
                 nodo1 = nodo->right;
                 if (nodo1->FE >= 0) { // rotación DD
                     nodo->right = nodo1->left;
@@ -56,7 +56,7 @@ void Restructura1(Node** nodocabeza, bool* BO) {
                             break;
                     }
                     nodo = nodo1;
-                } else { // Rotación DI
+                } else { // rotación DI
                     nodo2 = nodo1->left;
                     nodo->right = nodo2->left;
                     nodo2->left = nodo;
@@ -141,7 +141,7 @@ void InsercionBalanceado(Node** nodocabeza, bool* BO, string codigo, string func
             if (*BO) {
                 switch (nodo->FE) {
                 case 1:
-                    nodo->FE = 0;
+                    nodo->FE = 0; 
                     *BO = false;
                     break;
                 case 0:
@@ -275,7 +275,6 @@ void menu() {
     cout << "2. Buscar término GO\n";
     cout << "3. Generar el grafo\n";
     cout << "4. Salir\n";
-    cout << "5. Mostrar contenido en pre/in/pos orden\n";
 }
 
 
