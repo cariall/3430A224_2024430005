@@ -1,0 +1,1000 @@
+ 1041  ls
+ 1042  cd Lab_4
+ 1043  ls
+ 1044  g++ 01_crear_arbol.cpp -o programa
+ 1045  ./programa
+ 1046  g++ 01_crear_arbol.cpp -o programa
+ 1047  ./programa
+ 1048  g++ 01_crear_arbol.cpp -o programa
+ 1049  ./programa
+ 1050  g++ 01_crear_arbol.cpp -o programa
+ 1051  ./programa
+ 1052  g++ 01_crear_arbol.cpp -o programa
+ 1053  ./programa
+ 1054  g++ 01_crear_arbol.cpp -o programa
+ 1055  ./programa
+ 1056  g++ 01_crear_arbol.cpp -o programa
+ 1057  ./programa
+ 1058  g++ 01_crear_arbol.cpp -o programa
+ 1059  ./programa
+ 1060  git branch
+ 1061  git checkout Laboratorio3 
+ 1062  git branch
+ 1063  cd Universidad/
+ 1064  cd 2025-2
+ 1065  ls
+ 1066  cd algoritmos/
+ 1067  ls
+ 1068  cd 'Laboratorios evaluados'/
+ 1069  cd Lab4
+ 1070  ls
+ 1071  cd Lab_4
+ 1072  ls
+ 1073  git branch
+ 1074  git checkout Laboratorio3 
+ 1075  git branch
+ 1076  git checkout -b laboratorio4
+ 1077  git branch
+ 1078  git add Rojas_Catalina_Lab4.cpp 
+ 1079  git commit -m "Agrego avance lab4"
+ 1080  git push origin laboratorio4
+ 1081  git status
+ 1082  cd ../ .. 
+ 1083  cd ..
+ 1084  git status
+ 1085  /* 
+ 1086  git checkout laboratori4o4
+ 1087  git checkout laboratorio4
+ 1088  git branch
+ 1089  git rm -r --cached "Laboratorios evaluados/Laboratorio_3"
+ 1090  git commit -m "Elimino lab_3 de rama lab4"
+ 1091  git push origin laboratorio4
+ 1092  cd U
+ 1093  cd 'Laboratorios evaluados'/
+ 1094  cd Lab_4
+ 1095  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1096  ./programa
+ 1097  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1098  ./programa
+ 1099  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1100  ./programa
+ 1101  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1102  ./programa
+ 1103  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1104  ./programa
+ 1105  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1106  ./programa
+ 1107  cd Universidad/
+ 1108  cd 2025-2
+ 1109  ls
+ 1110  cd algoritmos/
+ 1111  ls
+ 1112  cd 'Laboratorios evaluados'/
+ 1113  cd Lab_4
+ 1114  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1115  ./programa
+ 1116  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1117  ./programa
+ 1118  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1119  ./programa
+ 1120  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1121  ./programa
+ 1122  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1123  ./programa
+ 1124  git branch
+ 1125  git add Rojas_Catalina_Lab4.cpp 
+ 1126  git commit -m "Actualizo"
+ 1127  git push origin laboratorio4
+ 1128  git push --force origin laboratorio4
+ 1129  ls
+ 1130  git add programa
+ 1131  git commit -m "agrego programa para demostrar ejecución"
+ 1132  git push origin laboratorio4
+ 1133  sudo apt install Parcellite
+ 1134  sudo apt update
+ 1135  sudo apt install copyq
+ 1136  cd Universidad/
+ 1137  ls
+ 1138  cd 2025-2
+ 1139  ls
+ 1140  cd algoritmos/
+ 1141  ls
+ 1142  cd 'Laboratorios evaluados'/
+ 1143  cd Lab_4
+ 1144  ls
+ 1145  touch readme.txt
+ 1146  cat readme.txt
+ 1147  nano readme.txt
+ 1148  git fetch origin
+ 1149  git checkout readme-edits
+ 1150  ls
+ 1151  nano readme.txt 
+ 1152  git add readme.txt
+ 1153  git commit -m "agrego readme"
+ 1154  git push origin laboratorio4
+ 1155  git branch
+ 1156  git checkout laboratorio4
+ 1157  git branch
+ 1158  git add readme.txt
+ 1159  ls
+ 1160  git checkout readme-edits
+ 1161  ls
+ 1162  nano readme.txt
+ 1163  ls
+ 1164  git checkout laboratorio4
+ 1165  git checkout readme-edits -- readme.txt
+ 1166  ls
+ 1167  git add readme.txt
+ 1168  git commit -m "agrego readme"
+ 1169  git push origin laboratorio4
+ 1170  git branch
+ 1171  git checkout readme-edits
+ 1172  ls
+ 1173  git checkout laboratorio4
+ 1174  ls
+ 1175  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1176  ./programa
+ 1177  ls
+ 1178  git branch
+ 1179  git add arbol.dot arbol.png
+ 1180  git commit -m "agrego dot y png"
+ 1181  git push origin laboratorio4 
+ 1182  cd Universidad/
+ 1183  cd 2025-
+ 1184  cd 2025-2
+ 1185  cd algoritmos/
+ 1186  cd 'Laboratorios evaluados'/
+ 1187  cd Lab_4
+ 1188  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1189  ./programa
+ 1190  g++ Rojas_Catalina_Lab4.cpp -o programa
+ 1191  ./programa
+ 1192  git add Rojas_Catalina_Lab4.cpp 
+ 1193  git commit -m "última actualización"
+ 1194  git branch
+ 1195  cd ../..
+ 1196  git add Rojas_Catalina_Lab4.cpp 
+ 1197  git commit -m "última"
+ 1198  git push origin laboratorio4 
+ 1199  cd 'Laboratorios evaluados'/
+ 1200  cd Lab_4
+ 1201  git add Rojas_Catalina_Lab4.cpp 
+ 1202  git commit -m "última"
+ 1203  git push --force origin laboratorio4 
+ 1204  cd ../..
+ 1205  git branch
+ 1206  ls
+ 1207  git fetch origin
+ 1208  git checkout laboratorio4
+ 1209  git restore --source=HEAD Rojas_Catalina_Lab4.cpp 
+ 1210  ls
+ 1211  mv Rojas_Catalina_Lab4.cpp "Laboratorios evaluados/Lab_4/"
+ 1212  ls
+ 1213  cd 'Laboratorios evaluados'/
+ 1214  cd Lab_4
+ 1215  ls
+ 1216  git add "Laboratorios evaluados/Lab_4/Rojas_Catalina_Lab4.cpp"
+ 1217  cd ../..
+ 1218  git add "Laboratorios evaluados/Lab_4/Rojas_Catalina_Lab4.cpp"
+ 1219  ls
+ 1220  git rm Rojas_Catalina_Lab4.cpp 
+ 1221  git commit -m "Muevo a carpeta"
+ 1222  git push origin laboratorio4 
+ 1223  git status
+ 1224  cd Universidad/
+ 1225  cd 2025-2
+ 1226  cd algoritmos/
+ 1227  ls
+ 1228  git add "Laboratorios evaluados/Lab_4/Rojas_Catalina_Lab4.cpp"
+ 1229  git commit -m "último"
+ 1230  git push origin laboratorio4
+ 1231  cd ../../..
+ 1232  ls
+ 1233  cd Descargas/
+ 1234  g++ copia.cpp -o programa
+ 1235  ./programa
+ 1236  cd Descargas/
+ 1237  ls
+ 1238  sudo apt install ./discord-0.0.112.deb
+ 1239  sudo dpkg -i discord-0.0.112.deb
+ 1240  cd DE
+ 1241  cd Descargas/
+ 1242  cd Un
+ 1243  cd ..
+ 1244  cd Universidad/
+ 1245  ls
+ 1246  cd 2025-2
+ 1247  ls
+ 1248  cd algoritmos/
+ 1249  ls
+ 1250  cd 'Laboratorios evaluados'/
+ 1251  cd Lab5
+ 1252  ls
+ 1253  cd Lab_5
+ 1254  ls
+ 1255  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1256  ./programa
+ 1257  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1258  ./programa
+ 1259  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1260  ./programa
+ 1261  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1262  ./programa
+ 1263  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1264  ./programa
+ 1265  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1266  ./programa
+ 1267  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1268  ./programa
+ 1269  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1270  ./programa
+ 1271  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1272  ./programa
+ 1273  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1274  ./programa
+ 1275  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1276  ./programa
+ 1277  ./programa Funciones_GO_minimal.csv
+ 1278  ./programa funciones_GO_minimal.csv
+ 1279  ./programa Funciones_GO_minimal.csv
+ 1280  ./programa funciones_GO_minimal.csv
+ 1281  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1282  ./programa Funciones_GO_minimal.csv
+ 1283  ./programa funciones_GO_minimal.csv
+ 1284  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1285  ./programa funciones_GO_minimal.csv
+ 1286  ./programa funciones_GO_minimal.csv
+ 1287  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1288  ./programa
+ 1289  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1290  ./programa funciones_GO_minimal.csv
+ 1291  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1292  ./programa funciones_GO_minimal.csv
+ 1293  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1294  ./programa funciones_GO_minimal.csv
+ 1295  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1296  ./programa funciones_GO_minimal.csv
+ 1297  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1298  ./programa funciones_GO_minimal.csv
+ 1299  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1300  ./programa funciones_GO_minimal.csv
+ 1301  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1302  ./programa funciones_GO_minimal.csv
+ 1303  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1304  ./programa funciones_GO_minimal.csv
+ 1305  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1306  ./programa funciones_GO_minimal.csv
+ 1307  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1308  ./programa funciones_GO_minimal.csv
+ 1309  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1310  ./programa funciones_GO_minimal.csv
+ 1311  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1312  ./programa funciones_GO_minimal.csv
+ 1313  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1314  ./programa funciones_GO_minimal.csv
+ 1315  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1316  ./programa funciones_GO_minimal.csv
+ 1317  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1318  ./programa funciones_GO_minimal.csv
+ 1319  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1320  ./programa funciones_GO_minimal.csv
+ 1321  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1322  ./programa funciones_GO_minimal.csv
+ 1323  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1324  ./programa funciones_GO_minimal.csv
+ 1325  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1326  ./programa funciones_GO_minimal.csv
+ 1327  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1328  ./programa funciones_GO_minimal.csv
+ 1329  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1330  ./programa funciones_GO_minimal.csv
+ 1331  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1332  ./programa funciones_GO_minimal.csv
+ 1333  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1334  ./programa funciones_GO_minimal.csv
+ 1335  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1336  ./programa funciones_GO_minimal.csv
+ 1337  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1338  ./programa funciones_GO_minimal.csv
+ 1339  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1340  ./programa funciones_GO_minimal.csv
+ 1341  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1342  ./programa funciones_GO_minimal.csv
+ 1343  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1344  ./programa funciones_GO_minimal.csv
+ 1345  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1346  ./programa funciones_GO_minimal.csv
+ 1347  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1348  ./programa funciones_GO_minimal.csv
+ 1349  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1350  ./programa funciones_GO_minimal.csv
+ 1351  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1352  ./programa funciones_GO_minimal.csv
+ 1353  cd Universidad/
+ 1354  cd 2025-2
+ 1355  cd algoritmos/
+ 1356  cd 'Laboratorios evaluados'/
+ 1357  cd Lab_5
+ 1358  ls
+ 1359  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1360  ls
+ 1361  ./programa
+ 1362  ls
+ 1363  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1364  ./programa
+ 1365  ./programa funciones_GO_minimal.csv
+ 1366  ./programa
+ 1367  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1368  ./programa
+ 1369  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1370  ./programa
+ 1371  ./programa funciones_GO_minimal.csv 
+ 1372  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1373  ./programa funciones_GO_minimal.csv 
+ 1374  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1375  ./programa funciones_GO_minimal.csv 
+ 1376  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1377  ./programa funciones_GO_minimal.csv 
+ 1378  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1379  ./programa funciones_GO_minimal.csv 
+ 1380  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1381  ./programa funciones_GO_minimal.csv 
+ 1382  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1383  ./programa funciones_GO_minimal.csv 
+ 1384  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1385  ./programa funciones_GO_minimal.csv 
+ 1386  cd ../..
+ 1387  cd algoritmos/
+ 1388  git branch
+ 1389  git branch laboratorio5
+ 1390  git checkout laboratorio5
+ 1391  git branch
+ 1392  git push -u origin laboratorio5
+ 1393  cd 'Laboratorios evaluados'/
+ 1394  git checkout laboratorio5
+ 1395  git rm -r *
+ 1396  git rm -r
+ 1397  git rm -r -f
+ 1398  git commit -m "Elimino archivos erróneos"
+ 1399  git push
+ 1400  cd Lab_5
+ 1401  ls
+ 1402  git add Rojas_Catalina_lab5.cpp grafo.png grafo.txt programa funciones_GO_minimal.csv
+ 1403  git commit -m "Agrego archivos, ejecutables, csv utilizado y txt + png para confirmar ejecución"
+ 1404  git push origin laboratorio5
+ 1405  touch readme.md
+ 1406  git branch
+ 1407  git add Rojas_Catalina_lab5.cpp readme.md 
+ 1408  git commit -m "Actualizo lab5 y agrego readme"
+ 1409  git push origin laboratorio5
+ 1410  cd Universidad/
+ 1411  cd 2025-2
+ 1412  cd algoritmos/
+ 1413  cd 'Laboratorios evaluados'/
+ 1414  cd Lab_5
+ 1415  g++ Rojas_Catalina_lab5.cpp -o programa
+ 1416  ./programa funciones_GO_minimal.csv
+ 1417  cd Universidad/
+ 1418  ls
+ 1419  cd 2025-2
+ 1420  cd algoritmos/
+ 1421  ls
+ 1422  cd Laboratorios\ evaluados/
+ 1423  ls
+ 1424  cd lab6/
+ 1425  ls
+ 1426  g++ nuevo.cpp -o programa
+ 1427  ./programa 
+ 1428  g++ nuevo.cpp -o programa
+ 1429  ./programa 
+ 1430  g++ nuevo.cpp -o programa
+ 1431  ./programa 
+ 1432  ./programa 2
+ 1433  g++ djikstra.cpp -o programa
+ 1434  ./programa 2
+ 1435  g++ djikstra.cpp -o programa
+ 1436  ./programa 2
+ 1437  ./programa 3
+ 1438  cd Universidad/
+ 1439  ls
+ 1440  cd 2025-
+ 1441  cd 2025-2
+ 1442  ls
+ 1443  cd algoritmos/
+ 1444  ls
+ 1445  cd 'Laboratorios evaluados'/
+ 1446  ls
+ 1447  cd lab7
+ 1448  ls
+ 1449  g++ prim.cpp -o programa
+ 1450  ./programa 
+ 1451  ./programa 3
+ 1452  g++ prim.cpp -o programa
+ 1453  ./programa 3
+ 1454  g++ prim2.cpp -o programa
+ 1455  ./programa 3
+ 1456  cd Universidad/
+ 1457  ls
+ 1458  cd 2025-2
+ 1459  ls
+ 1460  cd algoritmos/
+ 1461  ls
+ 1462  cd 'Laboratorios evaluados'/
+ 1463  cd lab7
+ 1464  g++ prim2.cpp -o programa
+ 1465  ./programa 3
+ 1466  dot -V
+ 1467  ls
+ 1468  which dot
+ 1469  g++ prim2.cpp -o programa
+ 1470  ./programa 3
+ 1471  g++ prim2.cpp -o programa
+ 1472  ./programa 3
+ 1473  cd Universidad/
+ 1474  ls
+ 1475  cd 2025-2
+ 1476  ls
+ 1477  cd algoritmos/
+ 1478  ls
+ 1479  cd 'Laboratorios evaluados'/
+ 1480  ls
+ 1481  cd lab7
+ 1482  ls
+ 1483  g++ prim -o programa
+ 1484  g++ prim.cpp  -o programa
+ 1485  ./programa 3
+ 1486  g++ prim.cpp  -o programa
+ 1487  ./programa 3
+ 1488  touch readme_lab7.md
+ 1489  nano readme_lab7.md 
+ 1490  cd ..
+ 1491  ls
+ 1492  cd lab6
+ 1493  touch readme_lab6.md
+ 1494  cd Universidad/
+ 1495  ls
+ 1496  cd 2025-2
+ 1497  ls
+ 1498  cd algoritmos/
+ 1499  ls
+ 1500  cd 'Laboratorios evaluados'/
+ 1501  ls
+ 1502  git branch
+ 1503  git status
+ 1504  git remote -v
+ 1505  git status
+ 1506  cd ../../..
+ 1507  ls -a
+ 1508  cd ..
+ 1509  ls -a
+ 1510  cd Universidad/
+ 1511  ls
+ 1512  cd 2025-2
+ 1513  ls -a
+ 1514  cd algoritmos/
+ 1515  ls -a
+ 1516  cd 'Laboratorios evaluados'/
+ 1517  ls -a
+ 1518  cd lab6
+ 1519  ls -a
+ 1520  cd ..
+ 1521  ls
+ 1522  cd ..
+ 1523  ls
+ 1524  ls -a
+ 1525  cd 'Laboratorios evaluados'/
+ 1526  ls
+ 1527  git branch
+ 1528  ls a-
+ 1529  ls -a
+ 1530  ls
+ 1531  git status
+ 1532  git checkout -b laboratorio6
+ 1533  git branch
+ 1534  git add lab6/djikstra.cpp lab6/grafo.png lab6/programa lab6/readme_lab6.md
+ 1535  git commit -m "Agrego archivos"
+ 1536  git push -u origin laboratorio6
+ 1537  git rm -r Lab_5
+ 1538  git commit -m "Quito carpeta que no debe ir ahí"
+ 1539  git push
+ 1540  git status
+ 1541  git switch --orphan laboratorio7
+ 1542  git status
+ 1543  git branch
+ 1544  git status
+ 1545  git checkout -b laboratorio7
+ 1546  git branch
+ 1547  git add lab7/prim.cpp lab7/grafo.png lab7/grafo_mst.png lab7/programa lab7/readme_lab7.md
+ 1548  git commit -m "Subo lab"
+ 1549  git push -u origin laboratorio7
+ 1550  git switch laboratorio6
+ 1551  ls
+ 1552  git diff Universidad/2025-2/algoritmos/Laboratorios\ evaluados/Lab_5/programa
+ 1553  git diff -- "Universidad/2025-2/algoritmos/Laboratorios evaluados/Lab_5/programa"
+ 1554  git restore "Universidad/2025-2/algoritmos/Laboratorios evaluados/Lab_5/programa"
+ 1555  ls
+ 1556  cd Lab_5
+ 1557  ls
+ 1558  cd ..
+ 1559  git diff Universidad/2025-2/algoritmos/Laboratorios\ evaluados/Lab_5/Rojas_Catalina_lab5.cpp
+ 1560  git diff -- "Universidad/2025-2/algoritmos/Laboratorios evaluados/Lab_5/Rojas_Catalina_lab5.cpp"
+ 1561  git diff --summary
+ 1562  git status
+ 1563  cd Universidad/
+ 1564  ls
+ 1565  cd 2025-2
+ 1566  ls
+ 1567  cd algoritmos/
+ 1568  git branch
+ 1569  git status
+ 1570  cd Universidad/
+ 1571  ls
+ 1572  cd 2025-2
+ 1573  ls
+ 1574  cd algoritmos/
+ 1575  ls
+ 1576  cd 'Laboratorios evaluados'/
+ 1577  ls
+ 1578  cd lab6
+ 1579  ls
+ 1580  g++ djikstra.cpp -o programa
+ 1581  ./programa 3
+ 1582  git branch
+ 1583  cd ..
+ 1584  git add lab6/djikstra.cpp
+ 1585  git commit -m "actualizo código"
+ 1586  git push origin -u laboratorio6
+ 1587  cd Universidad/
+ 1588  cd 2025-2
+ 1589  cd algoritmos/
+ 1590  ls
+ 1591  cd 'Laboratorios evaluados'/
+ 1592  ls
+ 1593  cd lab7
+ 1594  ls
+ 1595  g++ prim.cpp -o programa
+ 1596  ./programa 3
+ 1597  g++ prim.cpp -o programa
+ 1598  ./programa 3
+ 1599  cd Universidad/
+ 1600  cd 2025-2
+ 1601  ls
+ 1602  cd algoritmos/
+ 1603  cd 'Laboratorios evaluados'/
+ 1604  ls
+ 1605  git status
+ 1606  git branch
+ 1607  git checkout laboratorio7
+ 1608  git status
+ 1609  git add Universidad/2025-2/algoritmos/Laboratorios\ evaluados/lab7/prim.cpp
+ 1610  pwd
+ 1611  git add lab7/prim.cpp
+ 1612  git commit -m "Actualización código"
+ 1613  git checkout laboratorio7
+ 1614  rm lab7/grafo_mst.png lab7/programa
+ 1615  git checkout laboratorio7
+ 1616  git cherry-pick laboratorio6
+ 1617  cd Universidad/
+ 1618  ls
+ 1619  cd 2025-2
+ 1620  LS
+ 1621  ls
+ 1622  cd algoritmos/
+ 1623  ls
+ 1624  cd 'Laboratorios evaluados'/
+ 1625  ls
+ 1626  cd lab8
+ 1627  ls
+ 1628  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1629  ./programa
+ 1630  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1631  ./programa
+ 1632  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1633  ./programa
+ 1634  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1635  ./programa
+ 1636  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1637  ./programa
+ 1638  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1639  ./programa
+ 1640  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1641  ./programa
+ 1642  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1643  ./programa
+ 1644  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1645  ./programa
+ 1646  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1647  ./programa
+ 1648  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1649  ./programa
+ 1650  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1651  ./programa
+ 1652  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1653  ./programa
+ 1654  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1655  ./programa
+ 1656  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1657  ./programa
+ 1658  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1659  ./programa
+ 1660  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1661  ./programa
+ 1662  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1663  ./programa
+ 1664  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1665  ./programa
+ 1666  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1667  ./programa
+ 1668  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1669  ./programa
+ 1670  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1671  ./programa
+ 1672  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1673  ./programa
+ 1674  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1675  ./programa
+ 1676  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1677  ./programa
+ 1678  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1679  ./programa
+ 1680  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1681  ./programa
+ 1682  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1683  ./programa
+ 1684  ./programa 10 s
+ 1685  ./programa 3 s
+ 1686  ./programa 3 n
+ 1687  ./programa 3 s
+ 1688  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1689  ./programa 3 s
+ 1690  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1691  ./programa 3 s
+ 1692  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1693  ./programa 3 s
+ 1694  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1695  ./programa 3 s
+ 1696  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1697  ./programa 3 s
+ 1698  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1699  ./programa 3 s
+ 1700  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1701  ./programa 3 s
+ 1702  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1703  ./programa 3 s
+ 1704  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1705  ./programa 3 s
+ 1706  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1707  ./programa 3 s
+ 1708  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1709  ./programa 3 s
+ 1710  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1711  ./programa 3 s
+ 1712  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1713  ./programa 3 s
+ 1714  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1715  ./programa 3 s
+ 1716  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1717  ./programa 3 s
+ 1718  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1719  ./programa 3 s
+ 1720  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1721  ./programa 3 s
+ 1722  ./programa 3 n
+ 1723  ./programa 3 s
+ 1724  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1725  ./programa 3 n
+ 1726  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1727  ./programa 3 n
+ 1728  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1729  ./programa 3 n
+ 1730  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1731  ./programa 3 n
+ 1732  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1733  ./programa 3 n
+ 1734  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1735  ./programa 3 n
+ 1736  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1737  ./programa 3 n
+ 1738  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1739  ./programa 3 n
+ 1740  ./programa 3 s
+ 1741  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1742  ./programa 3 n
+ 1743  ./programa 3 s
+ 1744  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1745  ./programa 3 n
+ 1746  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1747  ./programa 3 n
+ 1748  ./programa 3 s
+ 1749  ./programa 3 n
+ 1750  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1751  ./programa 3 n
+ 1752  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1753  ./programa 3 n
+ 1754  ./programa 3 s
+ 1755  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1756  ./programa 3 n
+ 1757  ./programa 3 s
+ 1758  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1759  ./programa 3 n
+ 1760  ./programa 3 s
+ 1761  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1762  ./programa 3 n
+ 1763  ./programa 3 s
+ 1764  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1765  ./programa 10 s
+ 1766  cd Universidad/
+ 1767  ls
+ 1768  cd 2025-2
+ 1769  ls
+ 1770  cd algoritmos/
+ 1771  ls
+ 1772  cd 'Laboratorios evaluados'/
+ 1773  ls
+ 1774  cd lab8
+ 1775  ls
+ 1776  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1777  ./programa 3 s
+ 1778  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1779  ./programa 3 s
+ 1780  cd Universidad/
+ 1781  ls
+ 1782  cd 2025-2
+ 1783  ls
+ 1784  cd algoritmos/
+ 1785  ls
+ 1786  cd 'Laboratorios evaluados'/
+ 1787  ls
+ 1788  cd lab8
+ 1789  ls
+ 1790  g++ Rojas_Catalina_lab8.cpp -o programa
+ 1791  ./programa 3 S
+ 1792  ./programa 3 N
+ 1793  ./programa 3 h
+ 1794  cd Universidad/
+ 1795  ls
+ 1796  cd 2025-2
+ 1797  ls
+ 1798  cd algoritmos/
+ 1799  ls
+ 1800  cd 'Laboratorios evaluados'/
+ 1801  ls
+ 1802  cd lab8
+ 1803  ls
+ 1804  git branch
+ 1805  git branch laboratorio8
+ 1806  git checkout laboratorio8
+ 1807  git merge --abort
+ 1808  git checkout laboratorio8
+ 1809  cd ..
+ 1810  cd lab7
+ 1811  git merge --abort
+ 1812  git status
+ 1813  git cherry-pick --abort
+ 1814  git checkout laboratorio8
+ 1815  cd ..
+ 1816  cd lab8
+ 1817  git branch
+ 1818  git add programa Rojas_Catalina_lab8.cpp readme.md
+ 1819  git commit -m "Agrego lab8"
+ 1820  git branch -vv
+ 1821  git push -u origin laboratorio8
+ 1822  cd Universidad/
+ 1823  ls
+ 1824  cd 2025-2
+ 1825  ls
+ 1826  cd algoritmos/
+ 1827  ls
+ 1828  cd 'Laboratorios evaluados'/
+ 1829  ls
+ 1830  cd lab9
+ 1831  ls
+ 1832  g++ lab9.cpp -o programa
+ 1833  ./programa
+ 1834  g++ lab9.cpp -o programa
+ 1835  ./programa
+ 1836  g++ lab9.cpp -o programa
+ 1837  ./programa
+ 1838  g++ lab9.cpp -o programa
+ 1839  ./programa
+ 1840  g++ lab9.cpp -o programa
+ 1841  ./programa
+ 1842  g++ lab9.cpp -o programa
+ 1843  ./programa
+ 1844  g++ lab9.cpp -o programa
+ 1845  ./programa
+ 1846  g++ lab9.cpp -o programa
+ 1847  ./programa
+ 1848  g++ lab9.cpp -o programa
+ 1849  ./programa
+ 1850  g++ lab9.cpp -o programa
+ 1851  ./programa
+ 1852  g++ lab9.cpp -o programa
+ 1853  ./programa
+ 1854  g++ lab9.cpp -o programa
+ 1855  ./programa
+ 1856  g++ lab9.cpp -o programa
+ 1857  ./programa
+ 1858  g++ lab9.cpp -o programa
+ 1859  ./programa
+ 1860  g++ lab9.cpp -o programa
+ 1861  ./programa
+ 1862  g++ lab9.cpp -o programa
+ 1863  ./programa
+ 1864  cd Universidad/
+ 1865  cd 2025-2
+ 1866  cd al
+ 1867  cd algoritmos/
+ 1868  ls
+ 1869  cd 'Laboratorios evaluados'/
+ 1870  ls
+ 1871  cd lab9
+ 1872  ls
+ 1873  g++ lab9.cpp -o programa
+ 1874  ./programa L
+ 1875  g++ lab9.cpp -o programa
+ 1876  ./programa L
+ 1877  g++ lab9.cpp -o programa
+ 1878  ./programa L
+ 1879  g++ lab9.cpp -o programa
+ 1880  ./programa L
+ 1881  g++ lab9.cpp -o programa
+ 1882  ./programa L
+ 1883  g++ lab9.cpp -o programa
+ 1884  ./programa L
+ 1885  g++ lab9.cpp -o programa
+ 1886  ./programa L
+ 1887  g++ lab9.cpp -o programa
+ 1888  ./programa L
+ 1889  g++ lab9.cpp -o programa
+ 1890  ./programa L
+ 1891  g++ lab9.cpp -o programa
+ 1892  ./programa L
+ 1893  g++ lab9.cpp -o programa
+ 1894  ./programa L
+ 1895  g++ lab9.cpp -o programa
+ 1896  ./programa L
+ 1897  2
+ 1898  ./programa L
+ 1899  g++ lab9.cpp -o programa
+ 1900  ./programa L
+ 1901  g++ lab9.cpp -o programa
+ 1902  ./programa L
+ 1903  g++ lab9.cpp -o programa
+ 1904  ./programa L
+ 1905  g++ lab9.cpp -o programa
+ 1906  ./programa L
+ 1907  cd Universidad/
+ 1908  ls
+ 1909  cd 2025-2
+ 1910  ls
+ 1911  cd algoritmos/
+ 1912  ls
+ 1913  cd 'Laboratorios evaluados'/
+ 1914  ls
+ 1915  cd lab9
+ 1916  g++ lab9.cpp -o programa
+ 1917  ./programa l
+ 1918  g++ lab9.cpp -o programa
+ 1919  ./programa l
+ 1920  cd Universidad/n
+ 1921  cd Universidad/
+ 1922  cd 2025-2
+ 1923  cd algoritmos/
+ 1924  ls
+ 1925  cd 'Laboratorios evaluados'/
+ 1926  cd lab9
+ 1927  cd
+ 1928  ls
+ 1929  cd Universidad/
+ 1930  cd 2025-2/algoritmos/'2025-2/algoritmos/Laboratorios evaluados'/lab9
+ 1931  cd 2025-
+ 1932  cd 2025-2
+ 1933  cd algoritmos/
+ 1934  cd 'Laboratorios evaluados'/
+ 1935  ls
+ 1936  cd lab9
+ 1937  ls
+ 1938  g++ lab9.cpp -o programa
+ 1939  ,/programa c
+ 1940  ./programa c
+ 1941  g++ lab9.cpp -o programa
+ 1942  ./programa c
+ 1943  g++ lab9.cpp -o programa
+ 1944  ./programa d
+ 1945  g++ lab9.cpp -o programa
+ 1946  ./programa d
+ 1947  g++ lab9.cpp -o programa
+ 1948  ./programa e
+ 1949  g++ lab9.cpp -o programa
+ 1950  ./programa e
+ 1951  g++ lab9.cpp -o programa
+ 1952  ./programa e
+ 1953  g++ lab9.cpp -o programa
+ 1954  ./programa l
+ 1955  g++ lab9.cpp -o programa
+ 1956  ./programa l
+ 1957  g++ lab9.cpp -o programa
+ 1958  ./programa l
+ 1959  g++ lab9.cpp -o programa
+ 1960  ./programa l
+ 1961  g++ lab9.cpp -o programa
+ 1962  ./programa l
+ 1963  g++ lab9.cpp -o programa
+ 1964  ./programa l
+ 1965  g++ lab9.cpp -o programa
+ 1966  ./programa c
+ 1967  g++ lab9.cpp -o programa
+ 1968  ./programa d
+ 1969  g++ lab9.cpp -o programa
+ 1970  ./programa d
+ 1971  g++ lab9.cpp -o programa
+ 1972  ./programa e
+ 1973  g++ lab9.cpp -o programa
+ 1974  ./programa c
+ 1975  g++ lab9.cpp -o programa
+ 1976  ./programa c
+ 1977  g++ lab9.cpp -o programa
+ 1978  ./programa c
+ 1979  cd Universidad/
+ 1980  ls
+ 1981  cd 2025-2
+ 1982  ls
+ 1983  cd 'Laboratorios evaluados'/
+ 1984  ls
+ 1985  cd lab9
+ 1986  ls
+ 1987  g++ lab9.cpp -o programa
+ 1988  ./programa l
+ 1989  ./programa c
+ 1990  ./programa d
+ 1991  ./programa e
+ 1992  cd Desca
+ 1993  cd Descargas/
+ 1994  ls
+ 1995  ls *.deb
+ 1996  sudo dpkg discord-0.0.115.deb
+ 1997  dpkg --help
+ 1998  sudo dpkg -i discord-0.0.115.deb
+ 1999  pwd
+ 2000  mkdir ayed_bash
+ 2001  ls
+ 2002  cd ayed_bash
+ 2003  mv ../Descargas/Lab_10.zip .
+ 2004  ls
+ 2005  unzip Lab_10.zip
+ 2006  ls
+ 2007  cd Lab_10/
+ 2008  ls
+ 2009  pwd
+ 2010  ls
+ 2011  ls -l1 *.txt
+ 2012  ls -l1 *G*
+ 2013  ls -l1 *_A*
+ 2014  cd uniprot_info/
+ 2015  ls
+ 2016  ls -l
+ 2017  ls -la
+ 2018  ls -ltr
+ 2019  ls -ltra
+ 2020  cat HEM.txt 
+ 2021  head -n10 HEM.txt 
+ 2022  tail -n10 HEM.txt 
+ 2023  grep "NUCLEOTIDE SEQUENCE" HEM.txt 
+ 2024  grep --color=auto "NUCLEOTIDE SEQUENCE" HEM.txt 
+ 2025  grep --color=auto "GO;" HEM.txt 
+ 2026  grep "GO;" *HEM.txt
+ 2027  pwd
+ 2028  ls -ltra
+ 2029  mv .GFP.txt GFP.txt
+ 2030  ls -la
+ 2031  mv .ACE2.txt ACE2.txt
+ 2032  mv .borrar.txt borrar.txt
+ 2033  ls -l
+ 2034  cat borrar.txt 
+ 2035  rm borrar.txt 
+ 2036  ls
+ 2037  ls -la
+ 2038  cd ..
+ 2039  history
+ 2040  history > mis_comandos.txt
