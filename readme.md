@@ -35,8 +35,6 @@ El número a ingresar como puntaje de penalidad debe ser estrictamente un entero
 
 string leerCadena(): lee el archivo. En caso de encontrarse con ">" por formato convencional fasta, descarta el encabezado y se lee el resto del archivo.
 
-void imprimirMatriz(): imprime la matriz.
-
 void leerMatrizU(): lee la matriz U desde un archivo txt.
 
 int traduccion(): traduce el caracter de la secuencia a un número, pues la matriz sólo permite enteros.
