@@ -5,6 +5,30 @@
 #include <cstdlib> //graviphz
 using namespace std;
 
+void imprimirMatriz(int **f, int n, int m, const string &S, const string &T, string titulo) {
+    cout << "\n========================================" << endl;
+    cout << "MATRIZ: " << titulo << endl;
+    cout << "========================================" << endl;
+
+    cout << "\t" << " " << "\t" << "-"; // espacio esquina
+    for (int i = 0; i < T.length(); i++) { 
+        char c = T[i]; //imprimo caracter de la cadena2 para fila
+        cout << "\t" << c;
+    }
+    cout << endl;
+
+    for (int i = 0; i <= n; i++) { 
+        if (i == 0) cout << "\t" << "-"; //deja espacio
+        else cout << "\t" << S[i - 1]; //imprime caracter cadena1 
+
+        for (int j = 0; j <= m; j++) { 
+            cout << "\t" << f[i][j]; //rellena con la mejor opción calculada
+        }
+        cout << endl;
+    }
+    cout << endl;
+}
+
 string leerCadena(const string &ruta) {
     ifstream file(ruta);
     if (!file.is_open()) {
@@ -289,6 +313,8 @@ int main(int argc, char* argv[]) {
             for (int j = 1; j <= m; j++) { //1ra fila
                 f[0][j] = f[0][j-1] + V;
             } 
+
+            imprimirMatriz(f, n, m, S, T, "INICIALIZADA");
         
             for (int i = 1; i <= n; i++) { //lleno matriz
                 for (int j = 1; j <= m; j++) {
@@ -298,6 +324,8 @@ int main(int argc, char* argv[]) {
                     f[i][j] = max(match, max(gapS, gapT)); // max entre todos se ubica en matriz
                 }
             }
+            
+            imprimirMatriz(f, n, m, S, T, "LLENA");
 
             reconstruirAlineamiento(S, T, f, V, U);
         

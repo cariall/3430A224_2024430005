@@ -35,6 +35,8 @@ El número a ingresar como puntaje de penalidad debe ser estrictamente un entero
 
 string leerCadena(): lee el archivo. En caso de encontrarse con ">" por formato convencional fasta, descarta el encabezado y se lee el resto del archivo.
 
+void imprimirMatriz(): imprime la matriz.
+
 void leerMatrizU(): lee la matriz U desde un archivo txt.
 
 int traduccion(): traduce el caracter de la secuencia a un número, pues la matriz sólo permite enteros.
@@ -53,7 +55,7 @@ Requisitos mínimos:
 -Librerías necesarias: iostream, fstream, string, stdexcept, cstdlib
 ---
 #Resultado esperado
-Se espera visualizar las estadísticas del alineamiento en la terminal, tanto match, mismatch, gap, porcentaje de identidad y puntaje máximo, además de la imagen png que genera el dot con el alineamiento de ambas secuencias indicando match con verde, mismatch con rojo y gap con gris.
+Se espera visualizar en la terminal la matriz con solo puntaje de penalidad y la matriz ya rellena con todos los números calculados. Luego, las estadísticas del alineamiento, tanto match, mismatch, gap, porcentaje de identidad y puntaje máximo, además de la imagen png que genera el dot con el alineamiento de ambas secuencias indicando match con verde, mismatch con rojo y gap con gris.
 ---
 #Autoría
 **Catalina Rojas Sepúlveda**
